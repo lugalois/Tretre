@@ -22,15 +22,18 @@ sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossor
 
 	<!-- navbar -->
 	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<!-- Logo navbar-->
 	  <a href="index.html"><img src="img/Logox.png" style="margin-left: 0%;"  width="75px" height="60px" ></a>
+	  <!-- boton collapse, cuando se de click sobre el boton se muestra el DIV con  id="navbarTogglerDemo02" -->
 	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
 	    <span class="navbar-toggler-icon"></span>
 	  </button>
 
 	  	
-	  
+	  <!-- Lista del boton collapse, se muestra cuendo se de click sobre el boton-->
 		  <div class="collapse navbar-collapse " id="navbarTogglerDemo02">
 		  	<div class="ass">
+		  		<!-- Lista (menu)-->
 		    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
 		      <li class="nav-item active">
 		        <a class="nav-link w k" href="cotizacion.html" style="color: black;">Contiza tu Tatuaje</a>
@@ -46,38 +49,52 @@ sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossor
 		      </li>
 		      <li class="nav-item w">
 		        <a class="nav-link" href="pcv5.html" style="color: black;">Quién Soy</a>
-		      </li>			        
+		      </li>
+		      <!-- Se crea formulario para la caja de busqueda -->			        
 		      	<form class="form-inline my-2 my-lg-0 ">
+		      		<!-- caja de busqueda -->
 			    	<input class="w txtxt" type="search" style="margin-left:  0px;" placeholder="Buscar" aria-label="Buscar">
-			    	<a href="#"><img src="img/search.png" style="margin-left: 0%;"  width="30px" height="30px" ></a>
+			    	<a href="#">
+			    	<!-- Imagen de busqueda(Lupa)-->
+			    	<img src="img/search.png" style="margin-left: 0%;"  width="30px" height="30px" ></a>
 			  	</form>
 		    </ul>
+
 		    </div>  
 		    <div class="az ass navbar-collapse">
 		    	
 		    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+		    	<!-- Se crea formulario para la caja de busqueda -->			        
 		    	<form class="form-inline my-2 my-lg-0 ">
+		    		<!-- caja de busqueda -->
 			    	<input class="w txtxt" type="search" placeholder="Buscar" aria-label="Buscar">
-			    	<a href="#"><img src="img/search.png" style="margin-left: 0%;"  width="30px" height="30px" ></a>
+			    	<a href="#">
+		    		<!-- Imagen de busqueda(Lupa)-->
+		    		<img src="img/search.png" style="margin-left: 0%;"  width="30px" height="30px" ></a>
 			  	</form>		    	
 		    </ul>
+		    <!-- link  HOME-->
 		    <a class="navbar-brand my-sm-0 pull-xs-right" href="index.html">Home</a>
 		    </div>
 		    
 		  
 	  	</div>
+		    <!-- Fi Lista-->
+	  	
 
 	</nav>
 	<!-- Fin navbar -->
 
 	<!-- Contenido -->
 
+	<!-- se crea un section y article donde se colocara toda la información principal de la pgina-->
 	<section>
 		<article>
 			<div class="container-fluid">
 			  <div class="row">
 			  	<!-- Menu costado izquierdo -->
 			    <div class="col-1 delet">
+			    	<!-- Cada uno de los siguientes div tiene una borde superior de 3px (mt-3) y representan links-->
 			    	<div class="mt-3">
 			    		<a href="index.html"><img  src="img/Logo.png" class="img-vertical" alt="Responsive image" ></a>	
 			    	</div>	
@@ -99,21 +116,27 @@ sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossor
 			    	
 			    </div>
 			    <!-- Fin Menu costado izquierdo -->
+
 			    <!-- Contebido del Centro -->
 			    <div class="col-11">
 			    	<div class="container">
 					  <div class="row">
-					    <div class="col-sm-6  text-center abc">					    		
+					    <div class="col-sm-6  text-center abc">		
+					    	<!-- Parrafo -->			    		
 						    <p >
 						    	"El arte de la expresión no me apareció como un oficio retórico, independiente de la conducta, sino como un medio para realizar plenamente el sentido humano"
 						    	<br>
+						    	<!-- Negrilla -->
 						    	<strong class="xyz">Alfonso Reyes</strong>
 						    </p>
 						</div>
-						<!-- carrusel -->
 					    <div class="col-sm-6">
+						<!-- Inicio carrusel -->
+
 						    <div id="carouselExampleControls" class="carousel slide mt-10" data-ride="carousel">
+						    	<!-- imagenes que estan en el carrusel -->
 							  <div class="carousel-inner ">
+
 							    <div class="carousel-item active ">
 							      <img src="img/Imovil.jpg" height="450px" class="d-block w-100">
 							    </div>
@@ -124,17 +147,20 @@ sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossor
 							      <img src="img/Imovil.jpg" height="450px" class="d-block w-100">
 							    </div>
 							  </div>
+
+							  <!-- "boton" anteriior, dar paso a la anterior imagen en el carrusel -->
 							  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
 							    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
 							    <span class="sr-only">Previous</span>
 							  </a>
+							  <!-- "boton" siguiete, dar paso a la siguiente imagen en el carrusel -->
 							  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
 							    <span class="carousel-control-next-icon" aria-hidden="true"></span>
 							    <span class="sr-only">Next</span>
 							  </a>
 							</div>
-					    </div>
 					    <!-- Fin carrusel -->
+					    </div>
 					  </div>
 					</div>
 			    </div>    
@@ -148,25 +174,34 @@ sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossor
 	</section>
 	<!-- Social networks -->
 
-
+	<!-- MENU DE REDES SOCIALES-->
+	<!-- Div consol estilos de la clase containerrr-->
 	<div class="containerrr">
+		<!-- Div consol estilos de la clase menu-toggle-->
 		<div class="menu-toggle">
+			<!-- span con clase fa fa-weixin, el nombre de la clase significa la imagen seleccionada-->
 			<span class="fa fa-weixin"></span>
 		</div>	
+		<!-- Div consol estilos de la clase menu-line-->
 		<div class="menu-line">
 			<div class="btn-app">
+				<!-- span con clase fa fa-facebook-offical, el nombre de la clase significa la imagen seleccionada-->
 				<div class="fa fa-facebook-official"></div>
 			</div>
 			<div class="btn-app">
+				<!-- span con clase fa fa-whatsapp, el nombre de la clase significa la imagen seleccionada-->
 				<div class="fa fa-whatsapp"></div>
 			</div>
 			<div class="btn-app">
+				<!-- span con clase fa fa-envelope, el nombre de la clase significa la imagen seleccionada-->
 				<div class="fa fa-envelope"></div>
 			</div>
 			<div class="btn-app">
+				<!-- span con clase fa fa-behance-square, el nombre de la clase significa la imagen seleccionada-->
 				<div class="fa fa-behance-square"></div>
 			</div>
 			<div class="btn-app">
+				<!-- span con clase fa fa-instagram, el nombre de la clase significa la imagen seleccionada-->
 				<div class="fa fa-instagram"></div>
 			</div>
 		</div>
@@ -177,6 +212,7 @@ sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossor
 
 	<!--footer  -->
 	<footer>
+		<!--Imgen del foter que tiene los estilos referente a la etiqueta footer-->
 		<img src="img/footer.png" class="img-fluid" alt="Responsive image" >
 	</footer>
 	
@@ -184,6 +220,7 @@ sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossor
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/js/bootstrap.js"></script>
     <script src="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/js/bootstrap.js"></script>
+    <!-- JS para el MENU DE REDES SOCIALES -->
     <script src="js/script.js"></script>
 
 
